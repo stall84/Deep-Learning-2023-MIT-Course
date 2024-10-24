@@ -22,6 +22,14 @@
 - Then those values (input times corresponding weight) are summed up
 - Then that resulting summation value is passed through an _nonlinear_ **_activation function_**.
 - The final output is produced.
-- There will need to be a **_bias term_** which will allow a netowrk to _shift_ the activation function because it must be non-linear.
+- There will need to be a scalar **_bias term_** which will allow a netowrk to _shift_ the activation function because it must be non-linear. _(green weight in diagram below)_
 
 ![mit_dl_intro_2.png](./images/mit_dl_intro_2.png)
+
+### (Perceptron Continued..)
+
+- The weighted sum $ \Sigma $ of the inputs $ x_i $ : Is found by multiplying each $ x_i $ by it's corresponding $ w_i $ then adding those resulting products up.
+- Next you'll add your bias value to that weighted sum.
+- Then the _activation function_ takes in the weighted sum and produces the output $ y $
+
+  ![mit_dl_intro_3.png](./images/mit_dl_intro_3.png)
