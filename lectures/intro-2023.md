@@ -33,3 +33,16 @@
 - Then the _activation function_ takes in the weighted sum and produces the output $ y $
 
   ![mit_dl_intro_3.png](./images/mit_dl_intro_3.png)
+
+#### Activation Function Significance
+
+<div style="display:flex; flex-direction:column; font-size:1.5em; color:red; background-color:black; padding:1em; " >
+  <p>
+    The purpose of an activation function is to introduce non-linearities into the network.
+  </p>
+  <p>
+    All 'real world' data is highly non-linear
+  </p>
+</div>
+
+- The [Sigmoid function](https://en.wikipedia.org/wiki/Sigmoid_function) is very common in Deep Learning neural networks, it takes as input all real numbers, and outputs a value between 0 and 1, which is extremely useful in probability distributions.
