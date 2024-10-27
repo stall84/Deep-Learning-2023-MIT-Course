@@ -55,7 +55,7 @@
 <ol>
 <li> <b>Dot Product of Inputs <i>x</i> by their weights <i>w</i></b>
 <li> <b>Add Bias <i>b</i></b>
-<li> <b>Pass resulting product/value off to Activation Function <i>g()</i></b>
+<li> <b>Pass resulting product/value (the state of the neuron) off to Activation Function <i>g(z)</i></b>
 </ol>
 
 ![perceptron_simplified](./images/perceptron_simplified_1.png)
