@@ -45,4 +45,17 @@
   </p>
 </div>
 
+<br/>
+
 - The [Sigmoid function](https://en.wikipedia.org/wiki/Sigmoid_function) is very common in Deep Learning neural networks, it takes as input all real numbers, and outputs a value between 0 and 1, which is extremely useful in probability distributions.
+
+### Recap
+
+- The perceptron forward propagates (works) in 3 phases:
+<ol>
+<li> <b>Dot Product of Inputs <i>x</i> by their weights <i>w</i></b>
+<li> <b>Add Bias <i>b</i></b>
+<li> <b>Pass resulting product/value off to Activation Function <i>g()</i></b>
+</ol>
+
+![perceptron_simplified](./images/perceptron_simplified_1.png)
