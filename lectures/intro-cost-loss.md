@@ -20,3 +20,19 @@
 - The empirical loss measures the total loss over our **\_entire datased**\_
 
 ![empirical-loss.png](./images/empirical-loss.png)
+
+## Binary Cross Entropy Loss
+
+- Cross entropy loss can be used with models that output a probability between 0 and 1
+- You'd use this on classifiction problems where there's a _yes_ or _no_ / _true_ or _false_ prediction needed.
+- So this can answer the question of _"Will this student pass the class based on these lecture attendance and hours spent on final project"_
+
+![binary-cross-entropy-loss.png](./images/binary-cross-entropy-loss.png)
+
+## Mean Squared Error Loss
+
+- For the situatino where we want to predict a _'continuous variable'_ or a discreet value.
+- In our example problem this would answer the question _"What whill my final numeric grade be?"_
+- The nn's predictions will then be values like _78_ or _91_
+
+![mean-squared-error-loss.png](./images/mean-squared-error-loss.png)
